@@ -1,0 +1,11 @@
+c:\Nate2019\NSS\workspace\c#\StudentExercises\bin\Debug\netcoreapp3.0\StudentExercises.exe
+C:\Nate2019\NSS\workspace\c#\StudentExercises\bin\Debug\netcoreapp3.0\StudentExercises.deps.json
+C:\Nate2019\NSS\workspace\c#\StudentExercises\bin\Debug\netcoreapp3.0\StudentExercises.runtimeconfig.json
+C:\Nate2019\NSS\workspace\c#\StudentExercises\bin\Debug\netcoreapp3.0\StudentExercises.runtimeconfig.dev.json
+c:\Nate2019\NSS\workspace\c#\StudentExercises\bin\Debug\netcoreapp3.0\StudentExercises.dll
+c:\Nate2019\NSS\workspace\c#\StudentExercises\bin\Debug\netcoreapp3.0\StudentExercises.pdb
+c:\Nate2019\NSS\workspace\c#\StudentExercises\obj\Debug\netcoreapp3.0\StudentExercises.csprojAssemblyReference.cache
+c:\Nate2019\NSS\workspace\c#\StudentExercises\obj\Debug\netcoreapp3.0\StudentExercises.AssemblyInfoInputs.cache
+c:\Nate2019\NSS\workspace\c#\StudentExercises\obj\Debug\netcoreapp3.0\StudentExercises.AssemblyInfo.cs
+c:\Nate2019\NSS\workspace\c#\StudentExercises\obj\Debug\netcoreapp3.0\StudentExercises.dll
+c:\Nate2019\NSS\workspace\c#\StudentExercises\obj\Debug\netcoreapp3.0\StudentExercises.pdb
