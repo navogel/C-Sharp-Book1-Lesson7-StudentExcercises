@@ -20,11 +20,11 @@ namespace StudentExercises
 
         //method to add excersize to Student
 
-         public void AssignExercise(Excercise exercise, Cohort cohort)
+         public void AssignExercise(Exercise exercise, Cohort cohort)
         {
             foreach (var student in cohort.StudentsInCohort)
             {
-                student.StudentsExcercises.Add(exercise);
+                student.StudentsExercises.Add(exercise);
             }
         }
 
