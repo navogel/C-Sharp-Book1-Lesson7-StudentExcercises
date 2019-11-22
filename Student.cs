@@ -17,10 +17,9 @@ namespace StudentExercises
         public string SlackHandle { get; set; }
         public Cohort StudentCohort { get; set; }
 
-
-
         //collection of excercises
         public List<Excercise> StudentsExcercises = new List<Excercise>();
+
     }
 
 }

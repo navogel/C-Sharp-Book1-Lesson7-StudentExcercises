@@ -26,6 +26,14 @@ namespace StudentExercises
         {
         InstructorsInCohort.Add(new Instructor(firsty, lasty, slacky, specialty, this));
         }
+
+        public void AssignExercise(Excercise exercise)
+        {
+            foreach (var student in StudentsInCohort)
+            {
+                student.StudentsExcercises.Add(exercise);
+            }
+        }
     }
 
 }
