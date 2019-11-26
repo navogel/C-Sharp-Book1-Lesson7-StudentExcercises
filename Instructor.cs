@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace StudentExercises
 {
-    public class Instructor
+    public class Instructor : NSSPerson
     {
         public Instructor(string firsty, string lasty, string slacky, string specialty, Cohort cohorty )
         {
@@ -12,9 +12,7 @@ namespace StudentExercises
             Specialty = specialty;
             InstructorCohort = cohorty;
         }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string SlackHandle { get; set; }
+    
         public string Specialty { get; set; }
         public Cohort InstructorCohort { get; set; }
 

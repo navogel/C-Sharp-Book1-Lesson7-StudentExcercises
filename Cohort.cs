@@ -17,14 +17,19 @@ namespace StudentExercises
         public List<Student> StudentsInCohort = new List<Student>();
         public List<Instructor> InstructorsInCohort = new List<Instructor>();
 
-        public void AddNewStudent(string firsty, string lasty, string slacky, List<Student> allStudents) 
+        public Student AddNewStudent(string firsty, string lasty, string slacky) 
         {
-        StudentsInCohort.Add(new Student(firsty, lasty, slacky, this, allStudents));
+        var student = new Student(firsty, lasty, slacky, this);
+        StudentsInCohort.Add(student);
+        return student;
+
         }
 
-        public void AddNewInstructor(string firsty, string lasty, string slacky, string specialty) 
+        public Instructor AddNewInstructor(string firsty, string lasty, string slacky, string specialty) 
         {
-        InstructorsInCohort.Add(new Instructor(firsty, lasty, slacky, specialty, this));
+        var instructor = new Instructor(firsty, lasty, slacky, specialty, this);
+        InstructorsInCohort.Add(instructor);
+        return instructor;
         }
 
         public void AssignExercise(Exercise exercise)
