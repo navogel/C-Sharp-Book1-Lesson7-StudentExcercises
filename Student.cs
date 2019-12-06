@@ -12,8 +12,6 @@ namespace StudentExercises
             SlackHandle = slacky;
             StudentCohort = cohorty;
             
-
-            
         }
 
        
